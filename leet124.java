@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class leet124 {
     public int MAX = Integer.MIN_VALUE;

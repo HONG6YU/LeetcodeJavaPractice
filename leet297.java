@@ -1,4 +1,3 @@
-package leetcode;
 
 public class leet297 {
         // Encodes a tree to a single string.

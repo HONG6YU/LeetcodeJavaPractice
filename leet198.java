@@ -1,4 +1,3 @@
-package leetcode;
 
 public class leet198 {
     public int rob(int[] nums) {

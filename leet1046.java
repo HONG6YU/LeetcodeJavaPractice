@@ -1,4 +1,3 @@
-package leetcode;
 
 public class leet1046 {
     public int lastStoneWeight(int[] stones) {

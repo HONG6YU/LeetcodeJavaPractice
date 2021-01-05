@@ -1,4 +1,3 @@
-package leetcode;
 
 public class leet96 {
     public int numTrees(int n) {

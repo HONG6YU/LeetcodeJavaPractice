@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class leet998 {
     public TreeNode insertIntoMaxTree(TreeNode root, int val) {

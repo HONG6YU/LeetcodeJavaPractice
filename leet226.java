@@ -1,4 +1,3 @@
-package leetcode;
 
 public class leet226 {
     public TreeNode invertTree(TreeNode root) {

@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class leet114 {
     public void flatten(TreeNode root) {

@@ -1,4 +1,4 @@
-package leetcode;
+
 public class leet70 {
     public int climbStairs(int n) {
         int p = 0;

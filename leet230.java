@@ -1,4 +1,3 @@
-package leetcode;
 
 public class leet230 {
     int count = 0;

@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class leet129 {
     public int SUM = 0;
