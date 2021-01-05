@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class leet101 {
     public boolean isSymmetric(TreeNode root) {

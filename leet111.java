@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class leet111 {
     public int minDepth(TreeNode root) {

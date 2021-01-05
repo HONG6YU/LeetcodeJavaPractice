@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class leet236 {
     TreeNode ans;

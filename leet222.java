@@ -1,4 +1,3 @@
-package leetcode;
 
 public class leet222 {
     public int countNodes(TreeNode root) {
