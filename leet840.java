@@ -12,12 +12,12 @@ public class leet840 {
                 continue;
             }
             if (count>=3) {
-                List<Integer> curIntegers = new ArrayList<>();
-                curIntegers.add(i-count+1);
-                curIntegers.add(i);
-                ans.add(curIntegers);
+                List<Integer> cur = new ArrayList<>();
+                cur.add(i-count+1);
+                cur.add(i);
+                ans.add(cur);
+                count = 1;
             }
-            count = 1;
         }
         return ans;
     }
