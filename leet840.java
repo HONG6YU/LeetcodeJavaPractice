@@ -7,16 +7,17 @@ public class leet840 {
         int length = s.length();
         int count = 1;
         for (int i = 0; i < length; i++) {
-            if (s.charAt(i)==s.charAt(i+1)) {
-                count++;
-                continue;
-            }
-            if (count>=3) {
-                List<Integer> cur = new ArrayList<>();
-                cur.add(i-count+1);
-                cur.add(i);
-                ans.add(cur);
+
+            if (i==length-1||s.charAt(i)!=s.charAt(i+1)) {
+                if (count>=3) {
+                    List<Integer> cur = new ArrayList<>();
+                    cur.add(i-count+1);
+                    cur.add(i); 
+                    ans.add(cur);
+                }
                 count = 1;
+            }else{
+                count++;
             }
         }
         return ans;
